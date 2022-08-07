@@ -10,5 +10,5 @@ let secret = Node.Process.process["env"]->Js.Dict.get("secret")
 
 Method 2
 ```rescript
-external secret: option<string> = "process.env.MONGO_URI"
+external secret: option<string> = "process.env.SECRET"
 ```
